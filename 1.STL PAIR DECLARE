@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define optimize()ios_base::sync_with_stdio(0);
+int main(){
+ optimize();
+ pair<int,int>p;
+ p.first=13;
+ p.second =10;
+ cout<<p.first<<"\n";
+ cout<<p.second<<"\n";
+
+
+ return 0;
+
+}
