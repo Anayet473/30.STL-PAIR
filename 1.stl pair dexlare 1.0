@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define optimize()ios_base::sync_with_stdio(0);
+int main(){
+ optimize();
+ pair<string ,vector<int>>p;
+ p.first="atika";
+ p.second={1,2,3,4};
+ cout<<p.first<<"\n";
+  for(auto u:p.second){
+    cout<<u<<" ";
+  }
+
+ return 0;
+
+}
