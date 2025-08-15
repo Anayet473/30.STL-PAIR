@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+vector<pair<string,int>>v;
+v.push_back({"anayet",5});
+v.push_back({"Anayet",2});
+v.push_back({"atika",2});
+v.push_back({"rohim",3});
+v.push_back({"murad",2});
+ sort(v.begin(),v.end());
+ for(auto u:v){
+    cout<<u.first<<" "<<u.second<<"\n";
+ }
+
+return 0;
+}
+
+
+
+
+
+
+
