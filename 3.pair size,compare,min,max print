@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+pair<int ,int>p1,p2;
+p1={3,4};
+p2={2,3};
+cout<<p.first<<"\n"<<p.second.size()<<"\n";//size print
+if(p1>p2){
+    cout<<"yes";// 2ta pair ar compare
+}
+pair<int,int>p=min(p1,p2);
+cout<<p.first<<" "<<p.second; //min pair print
+pair<int,int>p=max(p1,p2);
+cout<<p.first<<" "<<p.second;//max pair print
+
+
+
+return 0;
+}
